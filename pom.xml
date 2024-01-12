@@ -4,16 +4,33 @@
   <artifactId>sample-maven-xml-reader</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>XMLReader</name>
-  
-  <dependencyManagement>
-		<dependencies>
-			<dependency>
-    			<groupId>org.seleniumhq.selenium</groupId>
-    			<artifactId>selenium-java</artifactId>
-    			<version>4.16.1</version>
-			</dependency>
-		</dependencies>
-  </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jxls</groupId>
+            <artifactId>jxls-jexcel</artifactId>
+            <version>1.0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dhatim</groupId>
+            <artifactId>fastexcel-reader</artifactId>
+            <version>0.15.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dhatim</groupId>
+            <artifactId>fastexcel</artifactId>
+            <version>0.15.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
